@@ -1,7 +1,7 @@
 name: Send emails daily
 on:
   workflow_dispatch:
-  schedule:https://github.com/hengyuan-zhang-0/zotero-arxiv-daily/blob/main/.github/workflows/main.yml
+  schedule:
     - cron: '0 2 * * *'
 
 jobs:
